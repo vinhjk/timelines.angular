@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TimeslineComponent } from './timesline/timesline.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimeslineComponent
   ],
   imports: [
     BrowserModule,
